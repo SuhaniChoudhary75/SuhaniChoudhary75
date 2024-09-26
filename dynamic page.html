@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets of the Solar System</title>
+   <link rel="stylesheet" href="dom.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="left">
+        <h1 id="title">Explore the Planets!</h1>
+
+        <!-- List of Planets -->
+        <ul id="planet-list">
+            <li class="planet">Mercury</li>
+            <li class="planet">Venus</li>
+            <li class="planet">Earth</li>
+            <li class="planet">Mars</li>
+            <li class="planet">Jupiter</li>
+        </ul>
+
+        <!-- Image of a planet -->
+        <img id="planet-img" src="https://imgs.search.brave.com/hGp6HG204eH_dq4yuAoIXWnaVDnWB11oLQs-4pZQ908/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Y5LzNm/LzZiL2Y5M2Y2Yjli/OTk1M2FkMDE0ZTFi/MTIwOTJjMjAxMTdj/LmpwZw" alt="Solar System" />
+    </div>
+
+    <div class="right">
+        <!-- Buttons for interactions -->
+        <button class="btn" onclick="changeText()">Change Title Text</button>
+        <button class="btn" onclick="highlightPlanets()">Highlight Planets</button>
+        <button class="btn" onclick="changeImage()">Change Image</button>
+        <button class="btn" onclick="addPlanet()">Add New Planet</button>
+    </div>
+</div>
+
+ <script src="dom.js"></script>
+
+</body>
+
+</html>
